@@ -1,0 +1,19 @@
+name: "Feature Request"
+description: "Suggest a new feature for Dhanvantari Vatika"
+title: "[FEATURE] - "
+body:
+  - type: "textarea"
+    id: "feature-description"
+    attributes:
+      label: "Feature Description"
+      description: "Describe the feature you'd like to see."
+      placeholder: "Explain your idea here..."
+    validations:
+      required: true
+
+  - type: "textarea"
+    id: "use-case"
+    attributes:
+      label: "Use Case"
+      description: "Explain how this feature will benefit users or improve the project."
+      placeholder: "Describe the use case..."

@@ -1,0 +1,47 @@
+name: CI Workflow
+
+on:
+  push:
+    branches: [main, dev]
+  pull_request:
+    branches: [main, dev]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the repository
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      # Step 2: Set up Node.js environment
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '22'
+
+      # Step 3: Cache Node Modules
+      - name: Cache Node Modules
+        uses: actions/cache@v3
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      # Step 4: Install Dependencies
+      - name: Install Dependencies
+        run: yarn
+
+      # Step 5: Run Lint
+      - name: Run Lint
+        run: yarn lint
+
+      # Step 6: Run Format
+      - name: Run Format
+        run: yarn format
+
+      # Step 7: Run Build
+      - name: Run Build
+        run: yarn build

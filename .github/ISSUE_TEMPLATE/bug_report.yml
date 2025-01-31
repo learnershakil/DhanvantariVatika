@@ -1,0 +1,35 @@
+name: "Bug Report"
+description: "Report a bug with Dhanvantari Vatika"
+title: "[BUG] - "
+body:
+  - type: "textarea"
+    id: "description"
+    attributes:
+      label: "Description"
+      description: "A clear and concise description of the bug."
+      placeholder: "Describe the bug here..."
+    validations:
+      required: true
+
+  - type: "textarea"
+    id: "steps-to-reproduce"
+    attributes:
+      label: "Steps to Reproduce"
+      description: "List the steps to reproduce the issue."
+      placeholder: "1. Go to... 2. Click on..."
+    validations:
+      required: true
+
+  - type: "input"
+    id: "expected-behavior"
+    attributes:
+      label: "Expected Behavior"
+      description: "What should happen instead?"
+      placeholder: "Expected outcome here..."
+
+  - type: "input"
+    id: "environment"
+    attributes:
+      label: "Environment"
+      description: "Operating system, browser, and relevant versions."
+      placeholder: "e.g., Windows 11, Chrome 95"

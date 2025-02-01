@@ -1,84 +1,119 @@
-# Turborepo starter
+# Dhanvantari Vatika: Virtual Herbal Garden 🌿
 
-This Turborepo starter is maintained by the Turborepo core team.
+Welcome to **Dhanvantari Vatika**, a unique and interactive virtual herbal garden. Our project is designed to bring the rich heritage of medicinal plants into the digital era, offering educational, engaging, and immersive experiences for users of all backgrounds.
 
-## Using this example
+## 🚀 Project Overview
+The goal of Dhanvantari Vatika is to create a comprehensive and visually appealing platform where users can explore various medicinal plants used in the **AYUSH systems of medicine**. With a 2D metaverse environment and VR functionality, we aim to make the learning process fun, interactive, and educational.
 
-Run the following command:
+## ✨ Features
+- **2D Metaverse Garden:** Navigate a beautifully crafted digital herbal garden.
+- **Virtual Reality (VR) Integration:** Experience the magic of medicinal plants in an immersive environment.
+- **Educational Modules:** Learn about the medicinal uses, botanical details, and history of each plant.
+- **Chatbot Assistance:** Get instant information and support while exploring the platform.
+- **Plant Home Kits:** Order kits to grow medicinal plants at home.
+- **Image Search Feature:** Identify plants through image recognition technology.
+- **Interactive Activities:** Participate in quizzes and activities to deepen your understanding.
 
-```sh
-npx create-turbo@latest
-```
+## 🛠 Tech Stack
+- **Frontend:** React, Nextjs, Tailwind CSS
+- **Backend:** Node.js, Express
+- **Monorepo Management:** Turbo Repo
+- **Package Manager:** Yarn
 
-## What's inside?
+- **Linting & Formatting:** ESLint, Prettier, Husky with Git Hooks
 
-This Turborepo includes the following packages/apps:
+## 🔧 Development Setup
 
-### Apps and Packages
+1. Clone the repository:
+   
+   ```bash
+   git clone https://github.com/learnershakil/DhanvantariVatika.git
+   
+   cd DhanvantariVatika
+   ```
+2. Install dependencies:
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
-- `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
+    ```bash
+    yarn
+    ```
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+3. Set up Husky:
 
-### Utilities
+    ```bash
+    yarn prepare
+    ```
+4. Start the development server:
 
-This Turborepo has some additional tools already setup for you:
+    ```bash
+    yarn dev
+    ```
+5. Build the project:
 
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
+    ```bash
+    yarn build
+    ```
 
-### Build
+# 🌿 Contributing
 
-To build all apps and packages, run the following command:
+We love and welcome contributions! To contribute to **Dhanvantari Vatika**, please:
 
-```
-cd my-turborepo
-pnpm build
-```
+1. **Fork** the repository.
+2. **Create a new branch** for your feature or bug fix.
+3. **Commit your changes** following the **Conventional Commits** guidelines.
+4. **Open a pull request**.
 
-### Develop
+### Pull Request Guidelines
 
-To develop all apps and packages, run the following command:
+- Ensure commit messages follow **Conventional Commit** standards.
+- Pass all **lint**, **format**, and **build** checks.
+- Add documentation for new features or changes.
 
-```
-cd my-turborepo
-pnpm dev
-```
+---
 
-### Remote Caching
+## 📝 Issue Reporting
 
-> [!TIP]
-> Vercel Remote Cache is free for all plans. Get started today at [vercel.com](https://vercel.com/signup?/signup?utm_source=remote-cache-sdk&utm_campaign=free_remote_cache).
+Found a bug or have a feature request? Please check the issue templates and follow the provided format.
 
-Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
+---
 
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup?utm_source=turborepo-examples), then enter the following commands:
+## 🛡️ Code Quality
 
-```
-cd my-turborepo
-npx turbo login
-```
+Our project uses:
 
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
+- **Husky:** To enforce Git hooks.
+- **Lint-Staged:** Ensures lint and format checks before commits.
+- **GitHub Actions:** Automates CI/CD processes.
 
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your Turborepo:
+---
 
-```
-npx turbo link
-```
+## 🎯 Roadmap
 
-## Useful Links
+- [ ] Complete VR Integration.
+- [ ] Add support for more medicinal plants.
+- [ ] Introduce AI-powered plant identification.
+- [ ] Launch multilingual support for better accessibility.
 
-Learn more about the power of Turborepo:
+---
 
-- [Tasks](https://turbo.build/repo/docs/core-concepts/monorepos/running-tasks)
-- [Caching](https://turbo.build/repo/docs/core-concepts/caching)
-- [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
-- [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
-- [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
-- [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
+## 🧑‍💻 Maintainers
+
+- **@learnershakil** Project Lead
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**. See the [LICENSE](./LICENSE) file for more details.
+
+---
+
+## 📬 Contact
+
+For any queries or support, please reach out to us at:
+
+- **Email:** learnershakil@gmail.com  
+- **GitHub:** [Dhanvantari Vatika Repository](https://github.com/learnershakil/DhanvantariVatika)
+
+---
+
+Thank you for being a part of **Dhanvantari Vatika's** journey to bring ancient medicinal knowledge into the digital world. Happy exploring! 🌱

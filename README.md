@@ -109,7 +109,7 @@ Our project uses:
 
 ## 📜 License
 
-This project is licensed under the **MIT License**. See the [LICENSE](./LICENSE) file for more details.
+This project is licensed under the **Dhanvantari Vatika License v1.0**. See the [LICENSE](./LICENSE) file for more details.
 
 ---
 

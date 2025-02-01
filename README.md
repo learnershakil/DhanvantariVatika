@@ -3,9 +3,11 @@
 Welcome to **Dhanvantari Vatika**, a unique and interactive virtual herbal garden. Our project is designed to bring the rich heritage of medicinal plants into the digital era, offering educational, engaging, and immersive experiences for users of all backgrounds.
 
 ## 🚀 Project Overview
+
 The goal of Dhanvantari Vatika is to create a comprehensive and visually appealing platform where users can explore various medicinal plants used in the **AYUSH systems of medicine**. With a 2D metaverse environment and VR functionality, we aim to make the learning process fun, interactive, and educational.
 
 ## ✨ Features
+
 - **2D Metaverse Garden:** Navigate a beautifully crafted digital herbal garden.
 - **Virtual Reality (VR) Integration:** Experience the magic of medicinal plants in an immersive environment.
 - **Educational Modules:** Learn about the medicinal uses, botanical details, and history of each plant.
@@ -15,6 +17,7 @@ The goal of Dhanvantari Vatika is to create a comprehensive and visually appeali
 - **Interactive Activities:** Participate in quizzes and activities to deepen your understanding.
 
 ## 🛠 Tech Stack
+
 - **Frontend:** React, Nextjs, Tailwind CSS
 - **Backend:** Node.js, Express
 - **Monorepo Management:** Turbo Repo
@@ -25,33 +28,36 @@ The goal of Dhanvantari Vatika is to create a comprehensive and visually appeali
 ## 🔧 Development Setup
 
 1. Clone the repository:
-   
+
    ```bash
    git clone https://github.com/learnershakil/DhanvantariVatika.git
-   
+
    cd DhanvantariVatika
    ```
+
 2. Install dependencies:
 
-    ```bash
-    yarn
-    ```
+   ```bash
+   yarn
+   ```
 
 3. Set up Husky:
 
-    ```bash
-    yarn prepare
-    ```
+   ```bash
+   yarn prepare
+   ```
+
 4. Start the development server:
 
-    ```bash
-    yarn dev
-    ```
+   ```bash
+   yarn dev
+   ```
+
 5. Build the project:
 
-    ```bash
-    yarn build
-    ```
+   ```bash
+   yarn build
+   ```
 
 # 🌿 Contributing
 
@@ -111,7 +117,7 @@ This project is licensed under the **MIT License**. See the [LICENSE](./LICENSE)
 
 For any queries or support, please reach out to us at:
 
-- **Email:** learnershakil@gmail.com  
+- **Email:** learnershakil@gmail.com
 - **GitHub:** [Dhanvantari Vatika Repository](https://github.com/learnershakil/DhanvantariVatika)
 
 ---
